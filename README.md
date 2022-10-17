@@ -1,71 +1,39 @@
-# Getting Started with Create React App
+🎡 4조 todoList 서비스 🎡
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+1. 프로젝트 주제: React를 활용한 달력을 통한 Todo-List
 
-In the project directory, you can run:
+2. 팀원 명단: 서영석, 이은지, 변웅섭
 
-### `npm start`
+3. 팀원별 역할 분담:
+      
+      서영석 - React  Calendar, Modal 창 구현.<br>
+      이은지 - Calendar CSS 구현.<br>
+      변웅섭 - Todo List CSS 구현.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. 요구사항:
+	
+  (1) Todo List 와 Calendar의 연동.<br>
+  (2) Calendar 내부 날짜 클릭 시 Modal 팝업.<br>
+  (3) 날짜별로 Todo List 에 메모하는 기능 추가.<br>
+  (4) Todo List 에 저장된 정보 노출.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. 트러블 슈팅
+	
+  (1) export default Calendar;
+  =>	js 파일에서 코드 마지막 부분에 이 구문을 사용하지 않아 제대로 앱이 실행되지 않았고
+  	이것이 들어가지 않은 파일을 하나하나 찾아 적어넣어 해결하였습니다.
+	
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# CalendarTodoList
+6. 느낀점
+	
+  ※서영석 - Git을 통해 협업을 하여야 하지만 아직 git에 대한 지식 수집이 안된 점과 알지 못하기 때문에 
+  설명을 하지 못한점이 아쉬움이 있습니다.
+  
+  ※이은지 - 리엑트 기초가 부족하다보니 프로젝트의 모든 과정 하나하나에서 다 오류 투성이였습니다.
+  매번 구글링 해가며 수업에서 진행했던 프로젝트를 다시 봐야해 시간이 많이 소요되었습니다.
+  기초부터 탄탄하게 다져서 실력을 키운 후에 이번 프로젝트를 다시 보완해봐야겠습니다.
+  
+  ※변웅섭 - 강의를 들을때 이해하는 것과 그 내용을 실제로 코드로 하는건 전혀 다른 문제라는걸
+  매 프로젝트마다 체감하였으며, 팀원들과 함께 원활하게 Git을 사용하는 방법을
+  좀 더 체득해야함을 느꼈습니다.
