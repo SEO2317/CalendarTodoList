@@ -1,9 +1,10 @@
 
-const Calendar = () => {
-    const [value, onChange] = useState(new Date());
+const Calendar = (props) => {
+    const [value, onChange, onClick] = useState(new Date());
+    
     return (
       <div>
-        <Calendar onChange={onChange} value={value} />
+        <Calendar onChange={onChange} value={value} onClick={close}/>
       </div>
     );
   }
